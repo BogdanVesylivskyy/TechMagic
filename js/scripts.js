@@ -28,22 +28,22 @@ $(document).ready(function(){
         loop: true,
         nav: true,
         autoplayHoverPause: true,
-        autoplayTimeout: 1520,
-        smartSpeed: 1500,
+        autoplaySpeed:5000,
+        items: 6,
         animateIn: 'linear',
         animateOut: 'linear',
         margin: 10,
         stagePadding: 20, 
         responsive:{ 
-        0:{
-            items:1
-        },
-        768:{
-            items:2
-        },
-        970:{
-            items:3
-        }
+            0:{
+                items:1
+            },
+            768:{
+                items:2
+            },
+            970:{
+                items:3
+            }
         }
     })
 
@@ -64,3 +64,5 @@ $(document).ready(function(){
     
 
 });
+
+
